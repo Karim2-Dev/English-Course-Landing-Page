@@ -13,6 +13,7 @@
   --color-neutral: #77767c;
   --color-green: #25d366;
   --color-green-shadow: #2aff6d5d;
+  --color-orange: #f97316;
 }
 /* =================== Fonts =================== */
 @theme inline {
@@ -46,6 +47,9 @@ p,
 span,
 .navigation-links {
   color: var(--color-neutral);
+}
+#home {
+  /* scroll-margin-top: 80px; */
 }
 
 .navigation-links li {
@@ -87,3 +91,39 @@ span,
 .btn-whatsapp:hover {
   box-shadow: 0px 0px 20px 1px var(--color-green);
 }
+
+/* Hero Section */
+.hero-section .left-side-content .btn-whatsapp span svg {
+  width: 10px;
+  height: 10px;
+}
+.hero-section .warrper-img .linear {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  z-index: 10;
+
+  /* هنا نضع التدرج */
+  background: linear-gradient(90deg, #2f57c1 0%, rgba(232, 178, 11, 1) 100%);
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 10px;
+}
+
+/* ========== Hero Section ========== */
+/* Why Us Section */
+.why-us .card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.why-us .card .icon svg {
+}
+
+/* ========== Why Us Section ========== */
