@@ -7,7 +7,7 @@ export default function HeroSection() {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="hero-section md:h-[calc(100vh-68px)] mb-7  pt-37 md:pt-17 "
+      className="hero-section md:h-[calc(100vh)] mb-7  pt-37 md:pt-17 "
       id="home"
     >
       <div className=" h-full px-4 md:px-7  flex flex-col md:flex-row relative overflow-hidden  justify-between items-center gap-5 ">
@@ -53,7 +53,7 @@ export default function HeroSection() {
               transition={{ duration: 1, delay: 1 }}
               className="btn-secondary !py-3 w-full  text-[14px] lg:text-[16px]  "
             >
-              <span></span> Explore Curriculum
+              Explore Curriculum
             </motion.button>
           </div>
         </div>

@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -7,10 +6,11 @@
 
 /* =================== Colors =================== */
 @theme inline {
-  --color-primary: #002366;
+  --color-primary: #00113a;
   --color-secondary: #4169e1;
   --color-tertiary: #501300;
-  --color-neutral: #77767c;
+  --color-neutral: #444650;
+  --color-babyblue: #cccfd8;
   --color-green: #25d366;
   --color-green-shadow: #2aff6d5d;
   --color-orange: #f97316;
@@ -103,9 +103,8 @@ span,
   left: 0;
   height: 5px;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
 
-  /* هنا نضع التدرج */
   background: linear-gradient(90deg, #2f57c1 0%, rgba(232, 178, 11, 1) 100%);
 
   background-repeat: no-repeat;
@@ -122,8 +121,6 @@ span,
   width: 40px;
   height: 40px;
   border-radius: 50%;
-}
-.why-us .card .icon svg {
 }
 
 /* ========== Why Us Section ========== */

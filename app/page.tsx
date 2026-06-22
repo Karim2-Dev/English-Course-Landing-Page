@@ -3,6 +3,8 @@ import HeroSection from "@/components/HeroSection";
 import DescriptionSection from "@/components/DescriptionSection";
 import { motion } from "framer-motion";
 import WhyUs from "@/components/WhyUs/WhyUs";
+import QuestionAndAnswer from "@/components/FQA/QuestionAndAnswer";
+import ReadyToStart from "@/components/ReadyToStart";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       </div>
       <DescriptionSection />
       <WhyUs />
+      <QuestionAndAnswer />
+      <ReadyToStart />
     </div>
   );
 }

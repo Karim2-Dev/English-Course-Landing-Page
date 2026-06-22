@@ -4,6 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import BlurBackground from "@/components/BlurBackground";
+import Footer from "@/components/Footer";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -35,6 +36,7 @@ export default function RootLayout({
         <Sidebar />
         <BlurBackground />
         {children}
+        <Footer />
       </body>
     </html>
   );

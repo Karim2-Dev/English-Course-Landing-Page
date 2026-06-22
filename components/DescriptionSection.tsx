@@ -4,7 +4,7 @@ export default function DescriptionSection() {
     <motion.div
       initial={{ opacity: 0, translateY: 50 }}
       whileInView={{ opacity: 1, translateY: 0 }}
-      transition={{ duration: 1, delay: 1 }}
+      transition={{ duration: 1 }}
       viewport={{ once: true }}
       layout
       id=""
@@ -12,9 +12,9 @@ export default function DescriptionSection() {
     >
       <h2>Practical English for the Real World</h2>
       <p>
-        We don't just teach grammar; we teach you how to communicate with
+        We don&apos;t just teach grammar; we teach you how to communicate with
         confidence in job interviews, university seminars, and global business
-        meetings. It's time to translate your ambition into fluency.
+        meetings. It&apos;s time to translate your ambition into fluency.
       </p>
     </motion.div>
   );

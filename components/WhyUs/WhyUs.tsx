@@ -47,8 +47,8 @@ export default function WhyUs() {
     <motion.div
       initial={{ opacity: 0, translateY: 50 }}
       whileInView={{ opacity: 1, translateY: 0 }}
-      transition={{ duration: 1, delay: 1.2 }}
-      className="why-us px-5 py-10 flex items-center flex-col justify-center gap-1.5 cursor-default"
+      transition={{ duration: 1 }}
+      className="why-us bg-neutral/10 px-5 py-10 flex items-center flex-col justify-center gap-1.5 cursor-default"
       id="why-us"
     >
       <h1 className="mb-5 text-2xl">Why Choose English Start?</h1>

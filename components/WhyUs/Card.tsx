@@ -27,7 +27,7 @@ export default function Card({
     <motion.div
       whileHover={{ y: -10 }}
       transition={{ duration: 0.2 }}
-      className={`card  ${selectedClass} border-t-4 rounded-lg shadow-md`}
+      className={`card  ${selectedClass} border-t-4 bg-white rounded-lg shadow-md`}
     >
       <div className="container p-6">
         <div className={`icon ${selectBackground} mb-5`}>{icon}</div>
